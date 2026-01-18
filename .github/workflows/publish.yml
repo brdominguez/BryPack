@@ -23,7 +23,9 @@ jobs:
 
       - name: Install packwiz
         run: |
-          curl -L -o packwiz https://github.com/brdominguez/packwiz/releases/download/v0.0.1/packwiz_linux_amd64
+          mkdir tmp && cd tmp
+          curl -L -o packwiz.tar.gz https://github.com/brdominguez/packwiz/releases/download/v0.0.1/packwiz_0.0.1_linux_amd64.tar.gz
+          tar -xzf packwiz.tar.gz
           chmod +x packwiz
           sudo mv packwiz /usr/local/bin/
 
