@@ -1,0 +1,100 @@
+name: Publish Modpack
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install packwiz
+        run: |
+          curl -L -o packwiz https://github.com/brdominguez/packwiz/releases/download/v0.0.1/packwiz_linux_amd64
+          chmod +x packwiz
+          sudo mv packwiz /usr/local/bin/
+
+      - name: Export modpack
+        run: packwiz modrinth export
+
+      - name: Prepare GitHub Pages
+        run: |
+          mkdir -p _site
+          mv *.mrpack _site/
+          MRPACK_FILE=$(ls _site/*.mrpack | head -1)
+          MRPACK_NAME=$(basename "$MRPACK_FILE")
+          cat > _site/index.html << EOF
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Bry Pack - Minecraft Modpack</title>
+            <style>
+              body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                max-width: 600px;
+                margin: 50px auto;
+                padding: 20px;
+                text-align: center;
+                background: #1a1a2e;
+                color: #eee;
+              }
+              h1 { color: #4ade80; }
+              .download-btn {
+                display: inline-block;
+                background: #4ade80;
+                color: #1a1a2e;
+                padding: 15px 30px;
+                text-decoration: none;
+                border-radius: 8px;
+                font-weight: bold;
+                margin: 20px 0;
+              }
+              .download-btn:hover { background: #22c55e; }
+              .info { color: #888; font-size: 0.9em; margin-top: 30px; }
+            </style>
+          </head>
+          <body>
+            <h1>Bry Pack</h1>
+            <p>Minecraft 1.21.11 modpack for NeoForge</p>
+            <a href="${MRPACK_NAME}" class="download-btn">Download Modpack</a>
+            <p class="info">
+              Import this .mrpack file into a Modrinth-compatible launcher<br>
+              (Prism Launcher, Modrinth App, etc.)
+            </p>
+          </body>
+          </html>
+          EOF
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
