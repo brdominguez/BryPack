@@ -1,0 +1,13 @@
+name = "Let Me Despawn"
+filename = "LetMeDespawn-1.21.11-x-neoforge-1.5.6.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/vE2FN5qn/versions/A89iKiUo/LetMeDespawn-1.21.11-x-neoforge-1.5.6.jar"
+hash-format = "sha512"
+hash = "b78d6ba050b81ad72e40c0fc2cb0e7c729a3fa18991a3cb7ed91abe9d78716ebe4623df2efc4144e0a7cc63d762e354b74ab0b95edbca60c2f7f75b44d8b8a87"
+
+[update]
+[update.modrinth]
+mod-id = "vE2FN5qn"
+version = "A89iKiUo"

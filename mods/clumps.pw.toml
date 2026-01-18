@@ -1,0 +1,13 @@
+name = "Clumps"
+filename = "Clumps-neoforge-1.21.11-29.0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wnxd13zP/versions/a8bNGdqK/Clumps-neoforge-1.21.11-29.0.0.1.jar"
+hash-format = "sha512"
+hash = "48d735331125a5aa6bc936b64c88195be8879f02ede244c8199dd5d33cad6d8207e552ae7e63e6b6eb34e961eac06c8f7a694b1f6a87a80583d8dab6548fa4c9"
+
+[update]
+[update.modrinth]
+mod-id = "Wnxd13zP"
+version = "a8bNGdqK"

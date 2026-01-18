@@ -1,0 +1,13 @@
+name = "Diagonal Windows"
+filename = "DiagonalWindows-v21.11.1-mc1.21.11-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oOi0CKes/versions/rNqzjsKo/DiagonalWindows-v21.11.1-mc1.21.11-NeoForge.jar"
+hash-format = "sha512"
+hash = "c3d706c86193dd8f4b8eba2be3a9e0c3125fd0747fb084501689d9695c3b4b3fe3fc4c850b0503348bd361d9a0518d0e4faf92b4a7b5fb8ae1a8fc461dcf2e49"
+
+[update]
+[update.modrinth]
+mod-id = "oOi0CKes"
+version = "rNqzjsKo"

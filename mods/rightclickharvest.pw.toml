@@ -1,0 +1,13 @@
+name = "RightClickHarvest"
+filename = "rightclickharvest-neoforge-4.6.0+1.21.11.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Cnejf5xM/versions/HqwTBmZv/rightclickharvest-neoforge-4.6.0%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "a6ffdd22ba018583ca31e81c65c23cda3ffce92c0dbc8f9e01c19b94563dc3213e666c946cc69a2457c36ea741d8b6a74497684e98986c090bb36e2c5c26a597"
+
+[update]
+[update.modrinth]
+mod-id = "Cnejf5xM"
+version = "HqwTBmZv"

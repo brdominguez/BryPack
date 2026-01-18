@@ -1,0 +1,13 @@
+name = "Sodium Extra Information"
+filename = "sodium-extra-information-neoforge-2.7.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/696WgnvT/versions/ldH4g9wS/sodium-extra-information-neoforge-2.7.0.jar"
+hash-format = "sha512"
+hash = "3ff96abdd960b58f1d44302bf2d5768916f827b0bc83ea270f0cd2d81008406e93c9406637f2d92b0037cd5d29175368aa6962b313ef3f30aea8a6ea9b77a288"
+
+[update]
+[update.modrinth]
+mod-id = "696WgnvT"
+version = "ldH4g9wS"

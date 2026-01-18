@@ -1,0 +1,13 @@
+name = "Double Jump"
+filename = "DoubleJump-v2.9.1_MOD.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hvSJRj1T/versions/J59pOxoE/DoubleJump-v2.9.1_MOD.jar"
+hash-format = "sha512"
+hash = "5f4e6b97e038f7b727da00615270f49b1fedb707503ab03b35fb9af476c1252b2f8f2ee554758ef7d7c4cf6497268339b02a799e3d0a0f00a8edda4b10a15da0"
+
+[update]
+[update.modrinth]
+mod-id = "hvSJRj1T"
+version = "J59pOxoE"

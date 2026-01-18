@@ -1,0 +1,13 @@
+name = "Horse Expert"
+filename = "HorseExpert-v21.11.0-mc1.21.11-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/24CSPS1E/versions/j4jgF0HF/HorseExpert-v21.11.0-mc1.21.11-NeoForge.jar"
+hash-format = "sha512"
+hash = "51c0f4d6431bc88c466ef839818a61cd55943b743a7b075e52baa7650aa817ab93c2650cb85bed07db0e21c604697ce955e7943db7c2b9a363ba6979fb97c091"
+
+[update]
+[update.modrinth]
+mod-id = "24CSPS1E"
+version = "j4jgF0HF"

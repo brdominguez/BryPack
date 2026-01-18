@@ -1,0 +1,13 @@
+name = "EnchantOnce"
+filename = "enchantonce-1.21.11-2.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/CLOsbQfZ/versions/xSnum6ip/enchantonce-1.21.11-2.1.0.jar"
+hash-format = "sha512"
+hash = "6a4ce584de91e8b0206daad1a4a329d6a61af658023523812cdaee5a034ba9b0a48061ca7b6f3ba8477e2b25f4f73304d3fc2e28f6405e2204d9ded22f500b6f"
+
+[update]
+[update.modrinth]
+mod-id = "CLOsbQfZ"
+version = "xSnum6ip"

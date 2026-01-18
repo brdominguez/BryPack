@@ -1,0 +1,13 @@
+name = "Comfortable Campfires"
+filename = "comfortable_campfires-1.2.2+1.21.11-neoforge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/lOZBoyio/versions/ntFfRKQW/comfortable_campfires-1.2.2%2B1.21.11-neoforge.jar"
+hash-format = "sha512"
+hash = "a7f327fae75d2f883830d13a4b007f019826a2d95078d69cbb0f2bfc13e4a90b25f5d763d57d79a7267b8e1260c5cd776a594b8ee0da87bd56ed138f86da0801"
+
+[update]
+[update.modrinth]
+mod-id = "lOZBoyio"
+version = "ntFfRKQW"

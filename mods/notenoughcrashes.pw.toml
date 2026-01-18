@@ -1,0 +1,13 @@
+name = "Not Enough Crashes"
+filename = "notenoughcrashes-neoforge-4.4.9+1.21.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yM94ont6/versions/mOLIo1dZ/notenoughcrashes-neoforge-4.4.9%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "add981fccdb7df440b1fb7f0eab5cf6f2cf87f9f6f5f6ff0bb178e12765e8e2b2609c76e954487da56c2706338e32fa3a62a674f98b3cb7e5329e78f91f2d0e4"
+
+[update]
+[update.modrinth]
+mod-id = "yM94ont6"
+version = "mOLIo1dZ"

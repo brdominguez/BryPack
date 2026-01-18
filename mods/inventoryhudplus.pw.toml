@@ -1,0 +1,13 @@
+name = "InventoryHUD+"
+filename = "inventoryhud.neoforged.1.21.11-3.4.29.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Kp2uclYl/versions/y9wAbguq/inventoryhud.neoforged.1.21.11-3.4.29.jar"
+hash-format = "sha512"
+hash = "b24d1128c818cb1677d6bbfd702b422b3d980dcb1d3c3cd6744e91b6aa857b9c73e565739107a24b09fa0d3d19a34414587d1fd04d7920f1d0fab8578d3519db"
+
+[update]
+[update.modrinth]
+mod-id = "Kp2uclYl"
+version = "y9wAbguq"

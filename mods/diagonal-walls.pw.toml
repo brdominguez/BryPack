@@ -1,0 +1,13 @@
+name = "Diagonal Walls"
+filename = "DiagonalWalls-v21.11.1-mc1.21.11-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FQgc8dib/versions/360hRrtL/DiagonalWalls-v21.11.1-mc1.21.11-NeoForge.jar"
+hash-format = "sha512"
+hash = "fb9d66cecdc66d878c73f76c92e3d19fca73b15927c65288545ba2d555cd3ed247ac91c3fe9007d431254d37cf7fbb56e60ad7d6d83dbdb891e2d6a37ec1c68c"
+
+[update]
+[update.modrinth]
+mod-id = "FQgc8dib"
+version = "360hRrtL"

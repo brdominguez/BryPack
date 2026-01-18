@@ -1,0 +1,13 @@
+name = "FokusAPI"
+filename = "FokusAPI-v3.3_MOD.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rvZnCrhx/versions/9uFjLhe4/FokusAPI-v3.3_MOD.jar"
+hash-format = "sha512"
+hash = "ea3b904716c3dd614320b710a90e20e128dcbbd71381fc19915f114184946afd633d37d76ddde0596f4f1cf8b1079b667921289db1d9553e01484a5112bd2598"
+
+[update]
+[update.modrinth]
+mod-id = "rvZnCrhx"
+version = "9uFjLhe4"

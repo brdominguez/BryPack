@@ -1,0 +1,13 @@
+name = "Resourceful Config"
+filename = "ResourcefulConfig-neoforge-1.21.11-3.11.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/M1953qlQ/versions/G5Jx3ZzR/ResourcefulConfig-neoforge-1.21.11-3.11.2.jar"
+hash-format = "sha512"
+hash = "ffde8852dcc722115513cfe7e8f302cfacf5fb022d54fef5b31abd35491bb2feaa0b6dc97f6111ae501d90b4ffa63739a353df554925d6206f928b882aaacc23"
+
+[update]
+[update.modrinth]
+mod-id = "M1953qlQ"
+version = "G5Jx3ZzR"

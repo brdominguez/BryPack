@@ -1,0 +1,13 @@
+name = "Advanced Netherite"
+filename = "advancednetherite-neoforge-2.3.1-1.21.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CFX9ftUJ/versions/BGEBG0ay/advancednetherite-neoforge-2.3.1-1.21.11.jar"
+hash-format = "sha512"
+hash = "a7e60d34e5e9c2ede161b943eaddf4ce235b855f2b3257c46eb326c3c09a6f08eb5ecfda8066d5db3155464d23e3977ecff4728b0bc5666a69c3f34fabed3f94"
+
+[update]
+[update.modrinth]
+mod-id = "CFX9ftUJ"
+version = "BGEBG0ay"

@@ -1,0 +1,13 @@
+name = "CoffeeG's Wall Climbing"
+filename = "WallClimbing-v3.5.1_MOD.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ie1S9PJr/versions/NT3vEEDh/WallClimbing-v3.5.1_MOD.jar"
+hash-format = "sha512"
+hash = "30778d9b98a156e3a0e94aa0de06d370faee2f001a346ecff20a17232afde43fd1924db2be5ca1e4e4b50ba09d39bb1c28481daa54fe69d30552d7498867836c"
+
+[update]
+[update.modrinth]
+mod-id = "ie1S9PJr"
+version = "NT3vEEDh"

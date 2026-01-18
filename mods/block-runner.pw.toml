@@ -1,0 +1,13 @@
+name = "Block Runner"
+filename = "BlockRunner-v21.11.0-mc1.21.11-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1VSGxqkt/versions/SO2MxVAu/BlockRunner-v21.11.0-mc1.21.11-NeoForge.jar"
+hash-format = "sha512"
+hash = "65813f12b3e72910ccd6985612f001f3232f6cbda8454c16a1a4ba2b96151af0af04da2dab428f8c0ed1770f7962dcb3a3fe5806942415143e9f5d4256333e4b"
+
+[update]
+[update.modrinth]
+mod-id = "1VSGxqkt"
+version = "SO2MxVAu"
