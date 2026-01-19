@@ -44,6 +44,7 @@ jobs:
           cp -r resourcepacks _site/
           cp -r shaderpacks _site/
           cp .github/pages/index.html _site/
+          bash .github/scripts/generate-indexes.sh _site
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
