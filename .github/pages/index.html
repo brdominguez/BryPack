@@ -26,6 +26,19 @@
       margin: 20px 0;
     }
     .download-btn:hover { background: #22c55e; }
+    .source-btn {
+      display: inline-block;
+      background: #4b5563;
+      color: #eee;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9em;
+      margin: 5px;
+    }
+    .source-btn:hover { background: #6b7280; }
+    .source-section { margin-top: 30px; }
+    .source-section h3 { color: #9ca3af; font-size: 0.9em; margin-bottom: 10px; }
     .info { color: #888; font-size: 0.9em; margin-top: 30px; }
   </style>
 </head>
@@ -34,6 +47,13 @@
   <p>Minecraft 1.21.11 modpack for NeoForge</p>
   <a href="BryPack.mrpack" class="download-btn">Download Modpack</a>
   <a href="pack.toml" class="download-btn" style="background: #60a5fa;">Pack Manifest</a>
+  <div class="source-section">
+    <h3>PackWiz Source Files</h3>
+    <a href="index.toml" class="source-btn">index.toml</a>
+    <a href="mods/" class="source-btn">mods/</a>
+    <a href="resourcepacks/" class="source-btn">resourcepacks/</a>
+    <a href="shaderpacks/" class="source-btn">shaderpacks/</a>
+  </div>
   <p class="info">
     Import this .mrpack file into a Modrinth-compatible launcher<br>
     (Prism Launcher, Modrinth App, etc.)

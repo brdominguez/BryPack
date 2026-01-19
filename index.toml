@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/publish.yml"
-hash = "d5f0913ae5c00186d62187028f292621c3b0ce9bfaaf78f0c424e90df74590d1"
-
-[[files]]
-file = "CLAUDE.md"
-hash = "c648272712ad98ff2095e7c27118c2829b84383d3c28ebd3eb5919cb3f93d450"
-
-[[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "0953ffeda5f045b69396bf318db0ddb9bf02a88b2fc7292278becf3d7b91852b"
 metafile = true

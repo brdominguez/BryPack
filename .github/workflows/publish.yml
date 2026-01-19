@@ -39,6 +39,10 @@ jobs:
           mkdir -p _site
           mv BryPack.mrpack _site/
           cp pack.toml _site/
+          cp index.toml _site/
+          cp -r mods _site/
+          cp -r resourcepacks _site/
+          cp -r shaderpacks _site/
           cp .github/pages/index.html _site/
 
       - name: Setup Pages
