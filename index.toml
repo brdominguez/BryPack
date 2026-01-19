@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/publish.yml"
+hash = "d5f0913ae5c00186d62187028f292621c3b0ce9bfaaf78f0c424e90df74590d1"
+
+[[files]]
+file = "CLAUDE.md"
+hash = "c648272712ad98ff2095e7c27118c2829b84383d3c28ebd3eb5919cb3f93d450"
+
+[[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "0953ffeda5f045b69396bf318db0ddb9bf02a88b2fc7292278becf3d7b91852b"
 metafile = true
@@ -58,6 +66,11 @@ metafile = true
 [[files]]
 file = "mods/carry-on.pw.toml"
 hash = "10409d8a62cc71f8763e068c6774205d1620a2b9ac53985dfb44550d812251a9"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "66c12aea9b67e4722e9bebf17e77542f5ff8f85bbb0534c337ed0b293c9d5717"
 metafile = true
 
 [[files]]
@@ -182,7 +195,7 @@ metafile = true
 
 [[files]]
 file = "mods/horseman.pw.toml"
-hash = "0a76209bab3786ac8b44c4b21430af235fea7938b29257b7a489edd910e791f6"
+hash = "6446cc378e7d503424b5045e875ad57cad6d0d78fe01ec0fca9b1de40bac6391"
 metafile = true
 
 [[files]]
@@ -293,11 +306,6 @@ metafile = true
 [[files]]
 file = "mods/moving-elevators.pw.toml"
 hash = "22762525f12e2bd06852a1990c758a9e627dd3d47bfa18f7052f6e5efbcf4917"
-metafile = true
-
-[[files]]
-file = "mods/no-animal-tempt-delay.pw.toml"
-hash = "ea11a3ddc4e717a682002ceb63ecc0946e7d3df71c6b2b6e5ccf09a3e6dc0120"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Chunky"
+filename = "Chunky-NeoForge-1.4.54.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fALzjamp/versions/gF4bKpRK/Chunky-NeoForge-1.4.54.jar"
+hash-format = "sha512"
+hash = "aa35a6aebf5aeef0fc428e729b607a40e67f413be7c1dc38c7c1f1589c35bdefda57a68627cd80d1967dcb84f6897169982bd80d0ef57a713ae89ad6ff76abb4"
+
+[update]
+[update.modrinth]
+mod-id = "fALzjamp"
+version = "gF4bKpRK"
