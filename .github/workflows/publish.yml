@@ -28,6 +28,7 @@ jobs:
           tar -xzf packwiz.tar.gz
           chmod +x packwiz
           sudo mv packwiz /usr/local/bin/
+          cd .. && rm -rf tmp
 
       - name: Export modpack
         run: |
