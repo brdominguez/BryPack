@@ -38,6 +38,7 @@ jobs:
         run: |
           mkdir -p _site
           mv BryPack.mrpack _site/
+          cp pack.toml _site/
           MRPACK_FILE=$(ls _site/*.mrpack | head -1)
           MRPACK_NAME=$(basename "$MRPACK_FILE")
           cat > _site/index.html << EOF
@@ -76,6 +77,7 @@ jobs:
             <h1>Bry Pack</h1>
             <p>Minecraft 1.21.11 modpack for NeoForge</p>
             <a href="${MRPACK_NAME}" class="download-btn">Download Modpack</a>
+            <a href="pack.toml" class="download-btn" style="background: #60a5fa;">Pack Manifest</a>
             <p class="info">
               Import this .mrpack file into a Modrinth-compatible launcher<br>
               (Prism Launcher, Modrinth App, etc.)
