@@ -30,12 +30,14 @@ jobs:
           sudo mv packwiz /usr/local/bin/
 
       - name: Export modpack
-        run: packwiz modrinth export
+        run: |
+          packwiz modrinth export
+          mv *.mrpack BryPack.mrpack
 
       - name: Prepare GitHub Pages
         run: |
           mkdir -p _site
-          mv *.mrpack _site/
+          mv BryPack.mrpack _site/
           MRPACK_FILE=$(ls _site/*.mrpack | head -1)
           MRPACK_NAME=$(basename "$MRPACK_FILE")
           cat > _site/index.html << EOF
