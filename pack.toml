@@ -1,12 +1,12 @@
 name = "Bry Pack"
 author = "Bryan"
-version = "1.0.2"
+version = "1.0.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1cc8b13f6d8db992551741b0493b719b9c58f22c803ef2a599803a8381134bee"
+hash = "140e5cd71c50080f4b810ceb1435f327023a8557ab95fc514248033489d1462c"
 
 [versions]
 minecraft = "1.21.11"
