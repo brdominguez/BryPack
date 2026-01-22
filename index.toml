@@ -276,6 +276,11 @@ hash = "e07224b54155142345279069bd370184580e7b33b8f414fa0ee110030569c66c"
 metafile = true
 
 [[files]]
+file = "mods/mansbestfriend.pw.toml"
+hash = "58126b09211539a12ef5e3ce16ac9c9c091d76eacffb78fbe2b493e43793d07b"
+metafile = true
+
+[[files]]
 file = "mods/mastercutter.pw.toml"
 hash = "6085654180887fa259b64cbd202abd83180b6fcd1483f11f30dad39b9c774d51"
 metafile = true

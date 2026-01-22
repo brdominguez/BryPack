@@ -1,0 +1,8 @@
+name = "Mans Best Friend"
+filename = "mansbestfriend.jar"
+side = "both"
+
+[download]
+url = "https://github.com/brdominguez/mans-best-friend/releases/download/latest/mansbestfriend.jar"
+hash-format = "sha256"
+hash = "709e5cf6a16bab0a1ab48810e6a071a8e64206282412919900eaee77d0e840fc"
