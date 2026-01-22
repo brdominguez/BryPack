@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://github.com/brdominguez/mans-best-friend/releases/download/latest/mansbestfriend.jar"
 hash-format = "sha256"
-hash = "709e5cf6a16bab0a1ab48810e6a071a8e64206282412919900eaee77d0e840fc"
+hash = "794342775c0d0314fa87c12ddb2379d1991b51ef23d43b6c70383e1db192e117"
