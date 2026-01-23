@@ -131,6 +131,11 @@ hash = "237a2dc34816516e8ddc4caf6583e74325bc095d36303aadecd8c2e2cef39029"
 metafile = true
 
 [[files]]
+file = "mods/crowmap.pw.toml"
+hash = "5c34ed9cb531834b526e084b1f72fc7a237f36ad2385f3cdc66fbeab119e45f0"
+metafile = true
+
+[[files]]
 file = "mods/diagonal-fences.pw.toml"
 hash = "0c591553cf99aef771688a7609d9fd17ee64579521c44dd063197b7aeb329ecd"
 metafile = true

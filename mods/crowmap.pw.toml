@@ -1,0 +1,13 @@
+name = "Crowmap"
+filename = "crowmap-1.21.11-neoforge-2025.12.23.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EAe3MQt5/versions/cnFEWO2x/crowmap-1.21.11-neoforge-2025.12.23.jar"
+hash-format = "sha512"
+hash = "cc24fbf937d698089815d0421d0d0b5c0141833aceb167ae70c7998116300b7372c2711e05b75d21b1fdd7948b5eb1108f454a68a8606c71ad3c6e6450dd60d9"
+
+[update]
+[update.modrinth]
+mod-id = "EAe3MQt5"
+version = "cnFEWO2x"
